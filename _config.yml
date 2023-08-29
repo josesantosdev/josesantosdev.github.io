@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: José Santos
+title: josesantos.dev
 email: contato.josesantosdev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Desmistificando o Desenvolvimento de Software para Iniciantes. 
-  Meu compromisso é facilitar sua jornada, fornecendo respostas diretas para suas dúvidas.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:  josesantos.dev
+  Desmistificando essa avalanche que é aprender Desenvolvimento de Software em portugûes.
+  De cara a dica pra você a dica é: Aprenda inglês!!! Enquanto isto, lembra de passar aqui
+  para aproveitar o conteúdo raíz de qualidade e em português demorô?
+baseurl: "josesantos.dev" # the subpath of your site, e.g. /blog
+url: "https://www.josesantos.dev/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  josesantosdev
 
 # Build settings
