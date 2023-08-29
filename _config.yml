@@ -38,7 +38,4 @@ theme:
 
 plugins:
   - jekyll-feed
- 
 
-minima:    
-  skin: dark
