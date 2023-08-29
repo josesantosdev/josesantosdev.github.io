@@ -30,6 +30,7 @@ description: >-  # this means to ignore newlines until "baseurl:"
   Juntos, exploraremos esse caminho de forma direta. Seja bem-vindo!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.josesantos.dev/" # the base hostname & protocol for your site, e.g. http://example.com
+publisher: "José Santos"
 github_username:  josesantosdev
 
 # Build settings
@@ -38,4 +39,7 @@ theme:
 
 plugins:
   - jekyll-feed
+  - jekyll-news-sitemap
+
+
 
