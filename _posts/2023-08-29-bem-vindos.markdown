@@ -3,6 +3,7 @@ layout: post
 title: "Fala, Dev! Seja bem-vindo à Jornada"
 date: 2023-08-29
 categories: Boas-Vindas
+author: José Santos
 ---
 Fala, Dev! É um prazer receber você aqui!
 

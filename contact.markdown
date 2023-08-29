@@ -1,18 +1,17 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: Contato
+permalink: /contato/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Entre em Contato
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**Região Centro Sul, Belo Horizonte, MG**  
+**Telefone:** 31991458907 | **E-mail:** thecaasantos@gmail.com
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Sinta-se à vontade para entrar em contato comigo para discutir oportunidades de colaboração, projetos, dúvidas ou apenas para uma conversa. Estou sempre aberto a conhecer novas pessoas e trocar experiências.
 
+## Redes Sociais
 
-[jekyll-organization]: https://github.com/jekyll
+- [LinkedIn](https://www.linkedin.com/in/josesantosdev)
+- [GitHub](https://github.com/josesantosdev)
