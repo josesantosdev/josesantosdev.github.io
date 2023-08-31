@@ -4,14 +4,15 @@ title: Contato
 permalink: /contato/
 ---
 
-# Entre em Contato
+Estou feliz por saber que você deseja falar comigo. Deixe sua mensagem abaixo:
 
-**Região Centro Sul, Belo Horizonte, MG**  
-**Telefone:** 31991458907 | **E-mail:** thecaasantos@gmail.com
-
-Sinta-se à vontade para entrar em contato comigo para discutir oportunidades de colaboração, projetos, dúvidas ou apenas para uma conversa. Estou sempre aberto a conhecer novas pessoas e trocar experiências.
-
-## Redes Sociais
-
-- [LinkedIn](https://www.linkedin.com/in/josesantosdev)
-- [GitHub](https://github.com/josesantosdev)
+<form id="contact-form">
+    <label for="contact-method">Escolha a forma de contato, você será redirecionado:</label>
+    <select id="contact-method" name="contact-method">
+      <option value="whatsapp">WhatsApp</option>
+      <option value="email">E-mail</option>
+    </select>
+    <input type="text" id="name" placeholder="Digite seu Nome" required>
+    <input type="text" id="message" name="message" placeholder="Digite sua mensagem" required>
+    <button type="submit">Enviar</button>
+</form>

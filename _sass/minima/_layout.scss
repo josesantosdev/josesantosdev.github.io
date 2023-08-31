@@ -1,22 +1,17 @@
 /**
  * Site header
  */
- .site-header {
+.site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   position: relative;
 }
 
-
 .site-logo {
   max-width: 90px;
   vertical-align: auto;
-
 }
-
-
-
 
 .site-nav {
   float: right;
@@ -218,4 +213,63 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#contact-form {
+  color: $text-color;
+  background-color: $background-color;
+  padding: $spacing-unit;
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  
+}
+
+#contact-form label {
+  font-weight: $base-font-weight;
+  margin-bottom: 0.5rem;
+}
+
+#contact-form select,
+#contact-form input[type="text"]{
+  width: 100%;
+  padding: 10px 0px 8px;
+  margin-bottom: 1rem;
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+}
+
+#contact-form button {
+  background-color: $brand-color;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#contact-form button:hover {
+  background-color: darken($brand-color, 10%);
+}
+
+#contact-form select {
+  appearance: none;
+  padding-right: 1.5rem;
+  background: darken($background-color, 10%) ;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  color:$grey-color-light;
+  border: 1px solid #dfdfdf;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
