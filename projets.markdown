@@ -16,5 +16,5 @@ Nesta seção, quero compartilhar com vocês as minhas explorações e empreendi
     <p>O blog é construído usando a plataforma Jekyll e hospedado no GitHub Pages. Ele apresenta uma estética "Material Dark" ao blog, personalizada a partir do tema base "Minima" do Jekyll.</p>
     <p>Contribuições são bem-vindas! Se encontrar erros, tiver sugestões ou quiser adicionar conteúdo, fique à vontade para abrir uma issue ou enviar um pull request.</p>
     <p>Aproveite o conteúdo, explore, aprenda e compartilhe!</p>
-    <a href="https://github.com/josesantosdev/josesantosdev.github.io" class="repo-link">Repositório no GitHub</a>
+    <a href="https://github.com/josesantosdev/josesantosdev.github.io" target="_blank" class="repo-link">Repositório no GitHub</a>
   </div>
