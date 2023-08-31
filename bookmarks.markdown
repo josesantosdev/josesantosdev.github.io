@@ -34,10 +34,10 @@ Bem-vindo à nossa página de recursos de aprendizado! Aqui, você encontrará u
   <div class="section">
     <h1 class="section-title">Roadmaps e Guias de Aprendizado</h1>
     <ul class="resource-list">
-      <li><input type="checkbox"> <a target="_blank href="https://roadmap.sh/frontend">Roadmap para Desenvolvedores Web</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://roadmap.sh/backend">Roadmap para Desenvolvedores Backend</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://roadmap.sh/devops">Roadmap para DevOps</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://roadmap.sh/data-science">Roadmap para Ciência de Dados</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://roadmap.sh/frontend">Roadmap para Desenvolvedores Web</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://roadmap.sh/backend">Roadmap para Desenvolvedores Backend</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://roadmap.sh/devops">Roadmap para DevOps</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://roadmap.sh/data-science">Roadmap para Ciência de Dados</a></li>
     </ul>
   </div>
   
@@ -45,45 +45,45 @@ Bem-vindo à nossa página de recursos de aprendizado! Aqui, você encontrará u
     <h1 class="section-title">Documentações e Tutoriais Oficiais</h1>
     <ul class="resource-list">
       <li><input type="checkbox"> <a target="_blank" href="https://docs.python.org/3/">Documentação do Python</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Documentação do JavaScript</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Documentação do HTML</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Documentação do CSS</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Documentação do JavaScript</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Documentação do HTML</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Documentação do CSS</a></li>
     </ul>
   </div>
   
   <div class="section">
     <h1 class="section-title">Cursos Online Gratuitos</h1>
     <ul class="resource-list">
-      <li><input type="checkbox"> <a target="_blank href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://www.edx.org/">edX</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://cs50.harvard.edu/">CS50 - Introdução à Ciência da Computação</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://www.edx.org/">edX</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://cs50.harvard.edu/">CS50 - Introdução à Ciência da Computação</a></li>
     </ul>
   </div>
   
   <div class="section">
     <h1 class="section-title">Tutoriais de Frameworks</h1>
     <ul class="resource-list">
-      <li><input type="checkbox"> <a target="_blank href="https://docs.djangoproject.com/en/3.2/intro/tutorial01/">Tutorial do Django Polls</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://reactjs.org/tutorial/tutorial.html">Tutorial do React</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://flask.palletsprojects.com/en/2.1.x/tutorial/">Tutorial do Flask</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://docs.djangoproject.com/en/3.2/intro/tutorial01/">Tutorial do Django Polls</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://reactjs.org/tutorial/tutorial.html">Tutorial do React</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://flask.palletsprojects.com/en/2.1.x/tutorial/">Tutorial do Flask</a></li>
     </ul>
   </div>
   
   <div class="section">
     <h1 class="section-title">IDEs e Editores de Código</h1>
     <ul class="resource-list">
-      <li><input type="checkbox"> <a target="_blank href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://www.jetbrains.com/pycharm/">PyCharm</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://atom.io/">Atom</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://www.jetbrains.com/pycharm/">PyCharm</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://atom.io/">Atom</a></li>
     </ul>
   </div>
   
   <div class="section">
     <h1 class="section-title">Programas de Aprendizado Online</h1>
     <ul class="resource-list">
-      <li><input type="checkbox"> <a target="_blank href="https://edu.google.com/">Google for Education</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://www.khanacademy.org/">Khan Academy</a></li>
-      <li><input type="checkbox"> <a target="_blank href="https://www.coursera.org/">Coursera</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://edu.google.com/">Google for Education</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://www.khanacademy.org/">Khan Academy</a></li>
+      <li><input type="checkbox"> <a target="_blank" href="https://www.coursera.org/">Coursera</a></li>
     </ul>
   </div>
   <button id="next-button" aria-label="Próximo Passo">
