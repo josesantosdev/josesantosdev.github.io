@@ -1,0 +1,31 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      const steps = $('.step');
+      let currentStep = 0;
+
+      updateStep(currentStep);
+
+      $('.next').click(function() {
+        if (currentStep < steps.length - 1) {
+          currentStep++;
+          updateStep(currentStep);
+        }
+      });
+
+      $('.prev').click(function() {
+        if (currentStep > 0) {
+          currentStep--;
+          updateStep(currentStep);
+        }
+      });
+
+      function updateStep(stepIndex) {
+        steps.removeClass('active');
+        steps.eq(stepIndex).addClass('active');
+
+        $('.prev').prop('disabled', stepIndex === 0);
+        $('.next').prop('disabled', stepIndex === steps.length-1);
+      }
+    });
+  </script>

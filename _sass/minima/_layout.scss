@@ -7,7 +7,12 @@
   min-height: $spacing-unit * 1.865;
   position: relative;
 }
-
+.section {
+  margin-bottom: 10px;
+}
+.resource-list {
+  display: none;
+}
 .site-logo {
   max-width: 90px;
   vertical-align: auto;
@@ -228,7 +233,6 @@ form {
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
-  
 }
 
 #contact-form label {
@@ -237,7 +241,7 @@ form {
 }
 
 #contact-form select,
-#contact-form input[type="text"]{
+#contact-form input[type="text"] {
   width: 100%;
   padding: 10px 0px 8px;
   margin-bottom: 1rem;
@@ -262,14 +266,103 @@ form {
 #contact-form select {
   appearance: none;
   padding-right: 1.5rem;
-  background: darken($background-color, 10%) ;
+  background: darken($background-color, 10%);
   background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 5px;
-  color:$grey-color-light;
+  color: $grey-color-light;
   border: 1px solid #dfdfdf;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+#next-button {
+  background-color: darken($brand-color, 10%); /* Use a cor desejada */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: blink 4s infinite;
+}
+
+#next-button:hover {
+  background-color: $brand-color;
+  animation:none;
+}
+
+table {
+  color: lightcoral;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 10;
+  }
+  25%, 75% {
+    opacity: 0.6;
+  }
+}
+
+
+.steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.prev,
+.next {
+  background-color: $brand-color; /* Use a cor desejada */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.prev[disabled],
+.next[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: darken($brand-color, 10%);
+}
+
+.tutorial {
+  color: $text-color;
+  background-color: $background-color;
+  padding: $spacing-unit;
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
 }
