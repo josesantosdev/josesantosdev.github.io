@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recursos para iniciantes
+title: Bookmarks
 permalink: /bookmarks/
 ---
 
