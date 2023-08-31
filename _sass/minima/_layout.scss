@@ -366,3 +366,17 @@ table {
   max-width: 400px;
   margin: 0 auto;
 }
+
+.repo-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid $grey-color-light;
+  border-radius: 5px;
+}
+
+.project {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 26px;
+}
