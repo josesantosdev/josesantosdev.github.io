@@ -3,6 +3,7 @@ layout: page
 title: Sobre Mim
 permalink: /sobre/
 ---
+![cat]({{"assets/img/cat.gif" | relative_url }})
 
 E aí, galera! Tudo na paz?
 Hoje vou me aprofundar um pouco mais na minha jornada e nas coisas que me fazem ser quem sou. Vamo bora!
