@@ -20,7 +20,7 @@ Minha jornada de aprendizado sempre envolveu conteúdo escrito e tutoriais prát
 
 **Influência da Cultura Pop**
 
-Os anos 90 são minha paixão! Cresci com videogames nos fliperamas e meu primeiro computador veio da Casa Bahia. Animes, RPGs e a eterna rivalidade entre Marvel e DC fizeram parte da minha vida. Distopias como Blade Runner e Akira são minha vibe, mas também sou fã de tecnologia, estilo Transformers e Homem de Ferro. E, claro, não posso deixar de lado o mundo mágico de Harry Potter.
+Os anos 90 são minha paixão! Cresci com videogames nos fliperamas e meu primeiro computador veio da Casas Bahia. Animes, RPGs e a eterna rivalidade entre Marvel e DC fizeram parte da minha vida. Distopias como Blade Runner e Akira são minha vibe, mas também sou fã de tecnologia, estilo Transformers e Homem de Ferro. E, claro, não posso deixar de lado o mundo mágico de Harry Potter.
 
 **Programação como Paixão**
 
