@@ -4,16 +4,16 @@ title: Sobre Mim
 permalink: /sobre/
 ---
 
-E aí, galera! Sou eu, o Dev do momento, ou pelo menos é assim que me sinto quando estou em frente ao meu computador &#x1F921;.
-Hoje vou me aprofundar um pouco mais na minha jornada e nas coisas que me fazem ser quem sou. Vamos nessa!
+E aí, galera! Tudo na paz?
+Hoje vou me aprofundar um pouco mais na minha jornada e nas coisas que me fazem ser quem sou. Vamo bora!
 
 **Visão Profissional**
 
-Meu maior objetivo profissional? Ter uma carreira sólida como desenvolvedor de software. Sério, eu sonho em trabalhar nas grandes empresas de tecnologia e poder viajar o mundo enquanto codifico. E sabe o que é mais legal? Acredito que compartilhar minha jornada e conhecimento pode ajudar muita gente que também quer seguir esse caminho. Afinal, todos nós já travamos naquele maldito conceito de orientação a objetos, não é? Mas relaxa, estou aqui para descomplicar as coisas.
+Meu maior objetivo profissional? Ter uma carreira sólida como desenvolvedor de software. Sério, eu sonho em trabalhar nas grandes empresas de tecnologia e poder viajar o mundo enquanto programo. E o motivo deste blog existir é porque acredito que posso compartilhar conhecimento de valor que pode ajudar muita gente que também quer seguir esse caminho. Afinal, todos nós já travamos naquele maldito (brincadeira, poo é doido de mais zé! s2) conceito de orientação a objetos, não é? Mas relaxa, estou aqui para descomplicar as coisas.
 
 **Experiência e Aprendizado**
 
-Ainda não consegui meu primeiro emprego na área, mas isso não me impede de continuar construindo minha carreira dia após dia. Enquanto não chega, vou aprendendo e desenvolvendo minhas habilidades. E cara, eu sou eclético quando se trata de tecnologias. Já brinquei com React, Django, Java, Vue e muito mais. Ah, e na faculdade, eu era o rei dos projetos em equipe, com mais de 52 repositórios no currículo. Quem diria, né? Às vezes, a falta de aprofundamento em algoritmos pode ter me deixado na mão em algumas entrevistas, mas eu não desisto.
+Ainda não consegui meu primeiro emprego na área, mas isso não me impede de continuar construindo minha carreira dia após dia. Enquanto o meu sim não chega, vou aprendendo e desenvolvendo minhas habilidades. E cara, eu sou eclético quando se trata de tecnologias. Já brinquei com React, Django, Java, Vue e muito mais. Ah, e na faculdade, eu era o rei dos projetos em equipe, com mais de 52 repositórios no currículo, apaguei e privei a maioria depois da primeira sindrome do impostor, mas continuei. Quem diria, né?.
 
 **Compartilhando o Conhecimento**
 
