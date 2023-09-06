@@ -4,7 +4,8 @@ title: Sobre Mim
 permalink: /sobre/
 ---
 
-E aí, galera! Sou eu, o Dev do momento, ou pelo menos é assim que me sinto quando estou em frente ao meu computador. Vocês já devem ter lido minha página "Sobre mim", mas hoje vou me aprofundar um pouco mais na minha jornada e nas coisas que me fazem ser quem sou. Vamos nessa!
+E aí, galera! Sou eu, o Dev do momento, ou pelo menos é assim que me sinto quando estou em frente ao meu computador &#x1F921;.
+Hoje vou me aprofundar um pouco mais na minha jornada e nas coisas que me fazem ser quem sou. Vamos nessa!
 
 **Visão Profissional**
 
