@@ -33,6 +33,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.josesantos.dev/" # the base hostname & protocol for your site, e.g. http://example.com
 publisher: "José Santos"
 github_username:  josesantosdev
+twitter_username: josesantos_dev
 
 # Build settings
 theme:
