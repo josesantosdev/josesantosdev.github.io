@@ -25,10 +25,7 @@ author:
   email: thecaasantos@gmail.com
 
 
-description: >-  # this means to ignore newlines until "baseurl:"
-  Desvendando a jornada de aprendizado em Desenvolvimento de Software.
-  Encontre conteúdo de qualidade em português para te guiar na realidade da programação. 
-  Juntos, exploraremos esse caminho de forma direta. Seja bem-vindo!
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.josesantos.dev/" # the base hostname & protocol for your site, e.g. http://example.com
 publisher: "José Santos"
