@@ -7,7 +7,7 @@ author: José Santos
 ---
 
 ![Developer]({{"../assets/img/post-09-13/1.jpg" | relative_url }})
-# Aprender a programar do zero de graça: é possível!
+## Aprender a programar do zero de graça: é possível!
 
 Primeiro, quero deixar claro que é perfeitamente viável aprender a programar do zero sem gastar um centavo. Hoje em dia, o mundo da programação se tornou incrivelmente acessível, aberto a qualquer pessoa com um computador e conexão à internet. E o melhor de tudo é que você não precisa de um supercomputador; um notebook básico da série Core i da Intel (i3, i5, i7) serve perfeitamente, não importa a geração.
 
@@ -50,7 +50,7 @@ Lembre-se de que, em 2023, há inúmeras maneiras de aprender a programar sem ga
 Independentemente de seus motivos para aprender programação, em 2023, existem muitas opções à sua disposição. O mais importante é começar a estudar agora e se manter comprometido com seu processo de aprendizado. Afinal, em 2023, aprender a programar é uma oportunidade acessível para todos que desejam.
 
 
-#Referências
+## Referências
 [https://egua.dev/](https://egua.dev/)
 [https://www.cursoemvideo.com/](https://www.cursoemvideo.com/)
 [grasshopper](https://www.gov.br/mec/pt-br/mecplace/solucoes/parcerias/google/grasshopper)
