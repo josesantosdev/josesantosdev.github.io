@@ -1,4 +1,4 @@
-<header class="site-header" role="banner">
+<header id="site-header" class="site-header" role="banner">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -28,4 +28,20 @@
       </nav>
     {%- endif -%}
   </div>
+
+  <script>
+      window.onscroll = function() {fixedOnTop()};
+
+      var header = document.getElementById("site-header");
+      
+      var sticky = header.offsetTop;
+
+      function fixedOnTop() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
 </header>
