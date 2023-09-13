@@ -384,3 +384,13 @@ table {
   margin: 0 auto;
   padding: 26px;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
