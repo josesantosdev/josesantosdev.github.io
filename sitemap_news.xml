@@ -12,4 +12,15 @@
 <news:title>Fala, Dev! Seja bem-vindo à Jornada</news:title>
 </news:news>
 </url>
+<url>
+<loc>https://www.josesantos.dev//guia/2023/09/13/como-aprender-a-programar-do-zero.html</loc>
+<news:news>
+<news:publication>
+<news:name>José Santos</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2023-09-13T00:00:00-03:00</news:publication_date>
+<news:title>Como aprender a programar do zero completamente de graça</news:title>
+</news:news>
+</url>
 </urlset>
