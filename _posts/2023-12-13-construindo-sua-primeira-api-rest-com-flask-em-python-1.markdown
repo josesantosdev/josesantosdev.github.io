@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Construindo sua Primeira API REST com Flask em Python"
+title: "Construindo sua Primeira API REST com Flask em Python PART 1"
 date: 2023-12-13
 categories: Tutorial
 author: José Santos
