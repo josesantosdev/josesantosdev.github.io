@@ -10,9 +10,13 @@ author: José Santos
 
 ![Image intro notebook]({{"../assets/img/post-12-13/1.png" | relative_url }})
 
-Você está se interessando pelo back-end, já ouviu geral falar de Python, possívelmente até de Django. API RESTamação orientada a objetos e ter familiaridade com bancos de dados, ORM e padrões arquiteturais, como o MVC para construir aplicações no back-end. No entanto, a verdadeira compreensão desses conceitos surge quando os aplicamos na prática.
+Você está se interessando pelo back-end, já ouviu geral falar de Python, possívelmente até de Django. API RESTamação orientada a objetos e ter familiaridade com bancos de dados, ORM e padrões arquiteturais, como o MVC para construir aplicações no back-end. 
 
-Neste tutorial, serei seu guia na construção da sua primeira API utilizando Flask, um microframework para aplicações web em Python. Vamos desenvolver uma aplicação simples seguindo o padrão MVC, introduzindo um serviço para lidar diretamente com a lógica de controle. Bora lá?
+No entanto, a verdadeira compreensão desses conceitos surge quando os aplicamos na prática.
+
+Neste tutorial, serei seu guia na construção da sua primeira API utilizando Flask, um micro-framework para aplicações web em Python. 
+
+Vamos desenvolver uma aplicação simples seguindo o padrão MVC, introduzindo um serviço para lidar diretamente com a lógica de controle. Bora lá?
 
 <div align="center">     
     <img width="500px" title="Modern software" src="https://media2.giphy.com/media/kwEmwFUWO5Ety/giphy.gif?cid=ecf05e47st1k7dtvoqavyljqa0jnh9bw2u2oz5slnkwyfajo&ep=v1_gifs_search&rid=giphy.gif&ct=g"/> 
@@ -187,7 +191,7 @@ def create_app():
     return app
 ````
 
-Já o arquivo `App.py` é nossa main. Se você vem do Python, este seria seu `static void main`, o arquivo principal que chama toda aplicação. E ele não poderia ser mais simples.
+Já o arquivo `App.py` é nossa main. Se você vem do Java, este seria seu `static void main`, o arquivo principal que chama toda aplicação. E ele não poderia ser mais simples.
 
 ````python
 from app import create_app
@@ -198,7 +202,7 @@ if __name__ =='__main__':
     app.run()
 ````
 
-Se tudo estiver funcionando corretamente, você conseguirá rodar a aplicação utilizando o comando `flask run`.
+Tudo estando certo, deve funcionar corretamente, você conseguirá rodar a aplicação utilizando o comando `flask run`.
 
 ````bash
 flask run
@@ -212,19 +216,27 @@ Você deve receber uma mensagem informando que tem um servidor rodando no seu lo
 
 ### **Primeiro Desafio #1 Testes**
 
-Dentro da pasta `app`, crie uma pasta chamada `tests`. Dentro da pasta `tests`, crie um arquivo `__init__.py` e outro arquivo `test_api.py`. Lembre-se, bobo, se você estiver executando os comandos do Bash dentro da shell do Pipenv, vai receber um erro. Deixe um terminal aberto. Eu gosto do Git Bash, só para você executar esses comandos de criação de pasta e arquivos e tal. Se não cria e navega na mão.
+Dentro da pasta `app`, crie uma pasta chamada `tests`. Dentro da pasta `tests`, crie um arquivo `__init__.py` e outro arquivo `test_api.py`. 
+
+[^1]:Lembrete bobo: se você estiver executando os comandos do Bash dentro da shell do Pipenv, vai receber um erro. 
+
+Deixe um terminal aberto. Eu gosto do Git Bash, só para você executar esses comandos de criação de pasta e arquivos e tal. Se não cria e navega na mão.
 
 ````bash
 cd app && mkdir tests && touch __init__.py test_api.py
 ````
 
-No arquivo `test_api.py`, vamos criar as configurações iniciais em conformidade com a documentação do Pytest. Não pense que eu criei este código do zero e que você precisa entender exatamente tudo que ele está fazendo. Não é bem assim. Trate essas próximas linhas de código como a configuração, e eu te explico o que realmente você precisa se atentar.
+No arquivo `test_api.py`, vamos criar as configurações iniciais em conformidade com a documentação do Pytest. 
+
+Não pense que eu criei este código do zero e que você precisa entender exatamente tudo que ele está fazendo. Não é bem assim. 
+
+Trate essas próximas linhas de código como a configuração, e eu te explico o que realmente você precisa se atentar.
 
 ````python
 import pytest
 from app import create_app
 
-# Primeiro, criamos as configurações iniciais conforme a documentação do pytest:
+# Primeiro, criamos as configurações iniciais conforme a documentação do pytest quando estamos usando o flask:
 @pytest.fixture()
 def app():
     app = create_app()
@@ -239,7 +251,9 @@ def client(app):
     return app.test_client()
 ````
 
-Aqui estamos criando novamente a aplicação Flask e informando para o Pytest qual nosso cliente de testes, no caso, nosso app. Desta forma, quando executarmos métodos como o `get` ou o `post` no client, estaremos executando métodos na nossa aplicação.
+Aqui estamos criando novamente a aplicação Flask e informando para o Pytest qual nosso cliente de testes, no caso, nosso app. 
+
+Desta forma, quando executarmos métodos como o `get` ou o `post` no client, estaremos enviando as requests para nossa aplicação.
 
 Agora, de fato, vamos criar nosso primeiro teste feito para falhar, e vocês vão entender o porquê ele está falhando.
 
@@ -254,15 +268,15 @@ def test_server_is_online(client):
     assert response.status_code == 200
 ````
 
-Neste teste unitário, estamos realizando uma requisição GET na rota '/' do client (aplicação Flask) e esperamos que a resposta tenha o status code 200. Lembra que disse que você precisaria entender o mínimo de HTTP? Pois bem, toda response HTTP tem um status code. Qualquer status code diferente deste em nosso teste irá falhar.
+Neste teste unitário, estamos realizando uma requisição GET na rota '/' do client (aplicação Flask) e esperamos que a resposta tenha o status **code 200**. 
+
+Lembra que disse que você precisaria entender o mínimo de **HTTP**? 
+
+Pois bem, toda response HTTP tem um status code. Qualquer status code diferente de 200 e nosso teste irá falhar.
 
 Vamos rodar?
 
-Em um terminal, digite `flask run` - o servidor já irá rodar com live-reload por padrão.
-
-````bash
-flask run
-````
+[^1]: Seus testes podem falhar por outro motivo, fica ligado na configuração do app flask no pytest
 
 No outro terminal, rode o Pytest.
 
@@ -280,13 +294,15 @@ Se tudo estiver configurado da forma correta, o teste irá falhar.
 
 #### **Passando no Teste**
 
-Sei que você já está morrendo de ansiedade. Mas se acalma, jovem padawan. Tem coisas que são necessárias, e eu juro que um dia você poderá me agradecer. Saber configurar seu ambiente do zero tem seu valor.
+Sei que você já está morrendo de ansiedade. Mas se acalma, jovem padawan. Tem coisas que são necessárias, e eu juro que um dia você poderá me agradecer. 
+
+Saber configurar seu ambiente do zero tem seu valor.
 
 Para passar no teste, precisamos que nosso servidor retorne o status code 200 no endpoint  '/'. Como fazemos isso?
 
 Com uma gambiarra, lógico!
 
- Dentro do arquivo `__init__.py` na pasta `app`, vamos chamar um decorator do Flask para criar nossa primeira rota, e vamos utilizar o método `make_response` do Flask para retornar um objeto vazio com o status code 200 nesta rota.
+ Dentro do arquivo `__init__.py` na pasta `app`, vamos chamar um decorator do Flask para criar nossa primeira rota, e vamos utilizar o método `make_response` do Flask para retornar uma lista vazia com o status code 200 nesta rota.
 
 ````python
 #atualização do arquivo __init__.py da pasta app
@@ -308,15 +324,19 @@ Feito isto seu teste já deve passar
 
 ![Image tests]({{"../assets/img/post-12-13/2.png" | relative_url }})
 
-Agora você é um cara que entende o básico na pratica é que é TDD, muitos tutoriais ai pela web nem se preocupam em te ensinar isto, é mais simples ensinar a pessoa usar o postman e fazer um get na rota na mão, mas será que isto é produtivo? Erick alugou um triplex na minha cabeça.
+Agora você é um cara que entende o básico, na pratica, o que é TDD. **Desenvolvimento Orientado a Testes**.
 
-Desafio um concluído meus caros amigos!
+Começar a escrever os testes antes da aplicação é um dos fundamentos do TDD, você escreve testes que falham inicialmente e depois implementa o código necessário para os testes passarem.
 
+Muitos tutoriais ai pela web nem se preocupam em te ensinar isto, é mais simples ensinar a pessoa usar o postman e fazer um get na rota na mão, mas será que isto é produtivo? Erick alugou um triplex na minha cabeça.
 
+#### **Lógica dos Testes**
 
-Explicando de forma bem direta a lógica dos nossos testes. Realizamos uma request em uma rota, e validamos se a response tem que esperamos, um tipo de dado, um status code ou até um tipo de dados espessífico.
+Explicando de forma bem direta a lógica dos nossos testes. 
 
-Segue o arquivo de testes completo para sua apreciação, se eu fosse você não daria ctrl+C ctrl+V se este for seu primeiro contato com testes unitários.
+Realizamos uma request em uma rota, e validamos se a response tem que esperamos, um tipo de dados, um status code, ou alguma validação.
+
+Segue o arquivo de testes completo para sua apreciação, **se eu fosse você não daria ctrl+C ctrl+V** principalmente se este for seu primeiro contato com testes unitários.
 
 ```python
 import pytest
@@ -462,7 +482,9 @@ git commit -m "main"
 
 ![git push]({{"../assets/img/post-12-13/3.png" | relative_url }})
 
-Você pode e deve colocar seu primeiro backend em python num repositório do Github, basta criar um repo na plataforma e configurar o remote e fazer o push, da seus pulos. (Inclusive quando vc cria o repo no github ele já te da um passo a passo de como criar ou apontar o repo. #fikadika)
+Você pode e deve colocar seu primeiro backend em python num repositório do Github, basta criar um repo na plataforma e configurar o remote e fazer o push. Da seus pulos menor!
+
+[^1]:Inclusive quando vc cria o repo no github ele já te da um passo a passo de como criar ou apontar o repo. #fikadika
 
 
 
